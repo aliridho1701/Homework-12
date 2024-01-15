@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+
+.square{
+  width: 80px;
+  height: 80px;
+  /* border: 1px solid #11c4db;
+  background-color: white; */
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+  height: 240px;
+}
+
+.status{
+  margin-bottom: 10px;
+}
+
+.game{
+  display: flex;
+  text-align: center;
+}
